@@ -1,19 +1,7 @@
-import { Geist, Geist_Mono } from "next/font/google";
-import { GoogleAnalytics } from "@next/third-parties/google";
+// import { GoogleAnalytics } from "@next/third-parties/google";
 import "./globals.css";
-import clsx from "clsx";
-import { Header } from "@/components/header";
-import { Footer } from "@/components/footer";
-
-const geistSans = Geist({
-  variable: "--font-geist-sans",
-  subsets: ["latin"],
-});
-
-const geistMono = Geist_Mono({
-  variable: "--font-geist-mono",
-  subsets: ["latin"],
-});
+import Footer from "@/components/footer";
+import Navbar from "@/components/navbar";
 
 // {
 //   content;
@@ -22,19 +10,12 @@ const geistMono = Geist_Mono({
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body
-        className={clsx(
-          geistSans.variable,
-          geistMono.variable,
-          "antialiased",
-          "lg:py-[40px] py-[16px] lg:px-[72px] px-[16px]"
-        )}
-      >
-        <Header />
-        <main className="container mx-auto">{children}</main>
+      <body className="font-sans">
+        <Navbar />
+        <main>{children}</main>
         <Footer />
       </body>
-      
+      {/*  */}
     </html>
   );
 }
