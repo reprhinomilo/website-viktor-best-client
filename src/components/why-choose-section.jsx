@@ -1,15 +1,18 @@
-import { Card, CardContent } from "@/components/ui/card";
+import { Card, CardContent } from '@/components/ui/card';
+import AboutCheck from '@/public/aboutCheck.svg';
+import Image from 'next/image';
 
-export default function WhyChooseSection({ whyChooseBlock = {} }) {
-  const { title = "", text = "", items = [] } = whyChooseBlock;
+export default function WhyChooseSection({ whyChooseBlock = {}, isAbout }) {
+  const { title = '', text = '', items = [] } = whyChooseBlock;
 
   return (
     <section className="py-20 my-12">
       <div className="max-w-6xl px-4 mx-auto">
-        <h2 className="mb-8 text-3xl font-bold text-[#0a1a33]">{title}</h2>
+        <h2
+          className="mb-8 text-3xl text-[#031228] font-sans font-semibold leading-[120%] tracking-[0px] capitalize">{title}</h2>
 
         <div className="space-y-6">
-          <p className="text-gray-700">{text}</p>
+          <p className="text-[#031228] font-sans font-normal text-base leading-[140%] tracking-[0px]">{text}</p>
 
           <div className="grid grid-cols-1 gap-4 mt-10 sm:grid-cols-2">
             {items.map((item, index) => (
@@ -17,8 +20,12 @@ export default function WhyChooseSection({ whyChooseBlock = {} }) {
                 key={index}
                 className="bg-[#a8d0e6] border-none rounded-none"
               >
-                <CardContent className="p-6 text-center">
-                  <h3 className="mb-2 text-lg font-semibold text-[#0a1a33]">
+                <CardContent className="p-6 text-center flex items-center">
+                  {isAbout && <div className="w-[60px]">
+                    <Image src={AboutCheck} width={48} height={48} alt={'AboutCheck'} />
+                  </div>}
+                  <h3
+                    className="text-2xl text-[#031228] font-sans font-semibold leading-[120%] tracking-[0px] text-center capitalize">
                     {item}
                   </h3>
                 </CardContent>

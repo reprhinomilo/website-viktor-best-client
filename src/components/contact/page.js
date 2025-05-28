@@ -1,6 +1,6 @@
 "use client";
 
-import { Heading } from "@/components/heading";
+// import { Heading } from "@/components/heading";
 import { useState } from "react";
 
 export default function Contact() {
