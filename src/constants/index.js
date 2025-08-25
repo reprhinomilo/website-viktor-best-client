@@ -39,22 +39,22 @@
   "title": "Anas Abdul Rahim: Compassionate Pain Management Expert",
   "seoBlock": {
     "title": "Anas Abdul Rahim - Pain Management Specialist",
-    "description": "Discover Anas Abdul Rahim's expertise in pain management and community service."
+    "description": "Discover Anas Abdul Rahim's expertise in compassionate pain management."
   },
   "mainBlock": {
     "title": "Anas Abdul Rahim: Compassionate Pain Management Expert",
-    "text": "Welcome to the professional home of Anas Abdul Rahim, a dedicated pain management specialist with a profound commitment to enhancing patient care and community well-being. Born to Syrian immigrants in Atlanta, GA, Anas's journey is marked by resilience, compassion, and a relentless pursuit of excellence. With a background in Food Science and Human Nutrition from the University of Florida, Anas's career path took a pivotal turn during a medical mission in Syria, where he witnessed the critical role of anesthesiology in patient care. This experience fueled his passion for pain management, leading him to complete his residency in anesthesiology at the University of Florida. Now based in Miami, Anas serves as a clinic attending for a pain management fellowship program, where he combines his medical expertise with a deep-seated commitment to service, both in the clinic and the community. Explore how Anas Abdul Rahim's unique blend of skills and experiences can make a difference in your life."
+    "text": "Welcome to the professional home of Anas Abdul Rahim, a dedicated pain management specialist with a profound commitment to enhancing patient care. Born to Syrian immigrants in Atlanta, GA, Anas's journey is marked by resilience, community service, and a passion for medicine. With a background in Food Science and Human Nutrition from the University of Florida, Anas's career path was profoundly shaped by a medical mission trip to Syria, where he witnessed the critical role of anesthesiology in patient care. Now based in Miami, Anas serves as a clinic attending for a pain management fellowship program, where he applies his expertise to improve patient outcomes. His dedication to service extends beyond his professional life, as he actively engages in community initiatives and values family support. Explore how Anas Abdul Rahim's unique experiences and compassionate approach make him a leader in pain management."
   },
   "keysBlock": {
     "title": "Core Expertise",
     "items": [
       "Pain management and anesthesiology specialist",
-      "Community service and non-profit leadership",
-      "Medical mission experience in conflict zones",
-      "Educational leadership in residency programs",
-      "Commitment to patient-centered care"
+      "Community service and leadership initiatives",
+      "Patient-centered care and safety advocate",
+      "Experienced in medical mission work",
+      "Dedicated to continuous professional development"
     ],
-    "footer": "Discover more about Anas Abdul Rahim's impactful work and services."
+    "footer": "Discover more about Anas's impactful work and contributions."
   }
 };
 
@@ -63,36 +63,40 @@
       };
 
     export const ABOUT_PAGE_CONTENT = {
-  "title": "Anas Abdul Rahim: Anesthesiologist & Community Advocate",
+  "title": "Anas Abdul Rahim: Anesthesiologist & Pain Management Expert",
   "seoBlock": {
-    "title": "Anas Abdul Rahim - Anesthesiologist & Advocate",
-    "description": "Discover Anas Abdul Rahim's journey in anesthesiology and community service."
+    "title": "Anas Abdul Rahim - Pain Management Specialist",
+    "description": "Discover Anas Abdul Rahim's journey in anesthesiology and pain management."
   },
   "mainBlock": {
     "title": "More About Anas Abdul Rahim",
-    "text": "Anas Abdul Rahim, born to Syrian immigrants in Atlanta, GA, has built a remarkable career in anesthesiology while maintaining a deep commitment to community service. Raised in Panama City, FL, Anas developed a love for the ocean and a strong work ethic instilled by his parents. His early involvement in student government at Gulf Coast State College laid the foundation for his leadership skills, which he further honed at the University of Florida, where he majored in Food Science and Human Nutrition. Anas's dedication to service was evident through his role as treasurer for Project Downtown, a non-profit serving the homeless.\n\nAnas's medical journey began in West Virginia, where he attended medical school. A pivotal moment came during a medical mission trip to Syria amidst the civil war, where he witnessed the critical role of anesthesiologists in emergency care. This experience solidified his decision to pursue anesthesiology, leading him back to the University of Florida for his residency. Despite facing personal challenges, including a significant neck injury, Anas persevered with the support of his family.\n\nNow based in Miami, Anas serves as a clinic attending for a pain management fellowship program. He continues to balance his professional responsibilities with his passion for the outdoors and family life, embodying the values of service and resilience."
+    "text": "Anas Abdul Rahim, a dedicated anesthesiologist and pain management specialist, was born in Atlanta, GA, to Syrian immigrants who fled political persecution. Raised in Panama City, FL, Anas developed a love for the ocean and a strong work ethic instilled by his parents. His early involvement in community service began in high school, where he led initiatives like Adopt a Highway and Habitat for Humanity projects.\n\nAnas pursued his undergraduate studies at the University of Florida, majoring in Food Science and Human Nutrition. His commitment to service continued as he served as treasurer for Project Downtown, a non-profit aiding the homeless. His medical journey began in West Virginia, where he experienced his first snowy winter. A pivotal moment came during a medical mission trip to Syria, where he witnessed the impact of war and was inspired to specialize in anesthesia.\n\nReturning to the University of Florida for his anesthesiology residency, Anas faced personal challenges, including a neck surgery that deepened his empathy for patients. Now based in Miami, he serves as a clinic attending for a pain management fellowship program, balancing his professional life with family and community service."
   },
   "keysBlock": {
     "title": "Core Values & Approach",
     "items": [
       {
-        "name": "Service",
-        "description": "A lifelong commitment to serving others, from community projects to medical missions."
+        "name": "Compassion",
+        "description": "Driven by empathy, Anas prioritizes patient comfort and care in every procedure."
+      },
+      {
+        "name": "Community Service",
+        "description": "Anas is committed to giving back, actively engaging in initiatives that support those in need."
       },
       {
         "name": "Resilience",
-        "description": "Overcoming personal and professional challenges with determination and support."
+        "description": "Overcoming personal and professional challenges has strengthened Anas's resolve and dedication."
       },
       {
         "name": "Family",
-        "description": "Prioritizing family bonds and support as a foundation for personal and professional success."
+        "description": "Family is at the heart of Anas's life, providing support and motivation in his career."
       },
       {
-        "name": "Leadership",
-        "description": "Leading by example in both medical and community settings, fostering growth and collaboration."
+        "name": "Continuous Learning",
+        "description": "Anas is dedicated to lifelong learning, staying at the forefront of medical advancements."
       }
     ],
-    "footer": "Anas Abdul Rahim is also active in speaking engagements and mentoring young professionals in the medical field."
+    "footer": "Anas Abdul Rahim is also active in speaking engagements and mentoring young medical professionals. Connect with him to learn more."
   },
-  "footer": "Ready to Connect with Anas Abdul Rahim?"
+  "footer": "Ready to explore pain management solutions with Anas Abdul Rahim?"
 };
