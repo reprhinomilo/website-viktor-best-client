@@ -1,6 +1,5 @@
 import { Card, CardContent } from '@/components/ui/card';
 import AboutCheck from '@/public/aboutCheck.svg';
-import Image from 'next/image';
 
 export default function WhyChooseSection({ whyChooseBlock = {}, isAbout }) {
   const { title = '', text = '', items = [] } = whyChooseBlock;
@@ -22,7 +21,7 @@ export default function WhyChooseSection({ whyChooseBlock = {}, isAbout }) {
               >
                 <CardContent className="p-6 text-center flex items-center">
                   {isAbout && <div className="w-[60px]">
-                    <Image src={AboutCheck} width={48} height={48} alt={'AboutCheck'} />
+                    <AboutCheck />
                   </div>}
                   <h3
                     className="text-2xl text-[#031228] font-sans font-semibold leading-[120%] tracking-[0px] text-center capitalize">

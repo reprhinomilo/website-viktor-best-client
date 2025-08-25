@@ -1,6 +1,5 @@
 "use client";
 
-// import { Heading } from "@/components/heading";
 import { useState } from "react";
 
 export default function Contact() {
@@ -99,14 +98,18 @@ export default function Contact() {
     };
 
     return (
-        <section className="flex flex-col md:gap-[40px] gap-[24px]">
-            <Heading type="h2" className="md:text-start text-center">Contact</Heading>
-            <div className="flex flex-col items-center justify-center bg-gray/10 md:px-[40px] px-[16px] md:py-[40px] py-[24px]">
-                <div className="max-w-[636px] w-full">
-                    <Heading type="h3" className="text-center">
-                        Have a question for me? Reach out using the form below
-                    </Heading>
-                    <form onSubmit={handleSubmit} className="md:mt-[40px] mt-[24px]">
+    <section className="flex flex-col gap-[24px] md:gap-[40px] px-[16px] md:px-[72px] pt-[40px] pb-[156px] relative">
+        <h2 className="text-[#031228] text-center md:text-start font-open-sans font-normal text-[32px] leading-[120%] tracking-[0px] uppercase">
+            Contact
+        </h2>
+            <div className="absolute top-32 md:top-42 right-6 md:right-auto md:left-6 w-[480px] h-[144px] bg-[#B0DAF1]" />
+            <div className="absolute top-135 left-6 md:left-auto md:right-6 w-[480px] h-[144px] bg-[#B0DAF1]" />
+            <div className="flex flex-col items-center justify-center bg-[#F2F2F2BF] backdrop-blur-md md:px-[40px] px-[16px] py-[40px]">
+                <div className="max-w-[636px] w-full]">
+                    <h4 className="text-[#031228] text-center md:text-start font-open-sans font-normal text-[25px] leading-[120%] tracking-[0px]">
+                        {"Need help? Just fill in the form, and we’ll contact you soon!"}
+                    </h4>
+                    <form onSubmit={handleSubmit} className="mt-[40px]">
                         <div className="mb-[24px]">
                             <input
                                 type="text"
@@ -163,7 +166,7 @@ export default function Contact() {
                         <div className="flex justify-center md:w-1/2 w-full">
                             <button
                                 type="submit"
-                                className="w-full bg-black text-white font-serif py-2 px-[32px] hover:bg-[#2a2a2a] transition-colors text-[17px] font-normal leading-[140%] capitalize">
+                                className="w-full bg-[#031228] text-white font-open-sans font-normal  py-2 px-[32px] hover:bg-[#2a2a2a] hover:cursor-pointer transition-colors text-[17px] leading-[140%] capitalize">
                                 Send
                             </button>
                         </div>
